@@ -148,3 +148,17 @@ header {
 .icon:nth-child(5) {
     background-color: #00ABA9;
 }
+
+
+.article-img {
+    width: 70px;
+    height: 70px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.news-article p {
+    font-family: Anton, sans-serif;
+    font-size: 10px;
+    text-transform: uppercase;
+}
