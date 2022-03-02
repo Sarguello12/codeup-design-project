@@ -60,18 +60,69 @@ header {
     text-decoration: none;
 }
 
-.btn-1 {
+.button:nth-child(1) {
     background-color: #E6563B;
 }
 
-.btn-2 {
+.button:nth-child(2) {
     background-color: #EB9D3A;
 }
 
-.btn-3 {
+.button:nth-child(3) {
     background-color: #7CB06C;
 }
 
-.btn-4 {
+.button:nth-child(4) {
+    background-color: #00ABA9;
+}
+
+.card {
+    width: 288px;
+    margin: auto;
+    background-color: #F0F0F0!important;
+}
+
+.card-body {
+    padding: 5px 0!important;
+    display: flex;
+}
+
+.card>img {
+    border: solid #E6E6E6 10px;
+    border-radius: 10px;
+}
+
+.card-body>p {
+    font-family: Abel, sans-serif;
+    padding-right: 30px;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    color: black;
+    font-size: 14px;
+    margin-left: 8px;
+    align-content: space-around;
+    text-decoration: none;
+}
+
+.icon:nth-child(2) {
+    background-color: #E6563B;
+}
+
+.icon:nth-child(3) {
+    background-color: #EB9D3A;
+}
+
+.icon:nth-child(4) {
+    background-color: #7CB06C;
+}
+
+.icon:nth-child(5) {
     background-color: #00ABA9;
 }
